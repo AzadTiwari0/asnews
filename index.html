@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">AS news</div>
+        <div class="nav-links">
+            <a href="#" class="category" data-category="top">Home</a>
+            <a href="#" class="category" data-category="sports">Sports</a>
+            <a href="#" class="category" data-category="technology">Technology</a>
+            <a href="#" class="category" data-category="health">Health</a>
+        </div>
+        <button id="themeToggle" class="theme-toggle">
+            <span class="light-icon">☀️</span>
+            <span class="dark-icon">🌙</span>
+        </button>
+    </nav>
+
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search news...">
+        <button id="searchButton">Search</button>
+    </div>
+
+    <div id="newsContainer" class="news-container"></div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
